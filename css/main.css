@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Mulish',sans-serif;
+    background: #E5E5E5;
+}
+.container{
+    background: #E5E5E5;
+}
+a{
+    text-decoration: none;
+}
+
+.create{
+    display: flex;
+    justify-content: space-between;
+}
+.create.h{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.005em;
+}
+
+.intro{
+    background-color: #fff;
+    padding: 34px 32px 24px 16px;
+    margin-bottom: 16px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle{
+    background: rgba(226, 226, 234, 1);
+    Width :64px;
+    Height:64px;
+    border-radius:50%;
+}
+
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.worker{
+    width: 384px;
+    border: 1px solid #E1E1FB;
+    border-radius: 8px;
+    margin-bottom: 32px;
+}
+
+.user{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+img{
+    width: 65px;
+    height: 65px;
+    border: 1px solid #E2E2EA;
+    border-radius: 50%;
+}
+
+.admin{
+    padding: 3px 8px;
+    border-radius: 4px;
+    background-color: #f1f1f6;
+    font-size: 12px;
+    font-weight: 700;
+    color: #9a9ab0;
+    margin-right: 50px;
+}
+
+.wrapper{
+    max-width: 1264px;
+    margin: 100px 32px 40px 40px;
+}
+
+.worker-details h3{
+    margin: 0;
+    padding-bottom: 11px;
+}
+
+.new{
+    color: #fff;
+    padding: 11px 24px;
+    background-color: #5541D7;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.green{
+    background-color: #D9F2EC;
+    color: #3CAA91;
+}
+
+.yellow{
+   color:#EEAF22 ; 
+   background-color: #FCE7CF;
+}
+
+.blue{
+    color:#2A23C2;
+    background-color: #DBD7F4;
+}
+
+.transparent{
+    color: #2A23C2;
+    background-color:transparent;
+    border: 1px solid #E1E1FB;
+}
+
+.icons i{
+    color: rgba(218, 218, 218, 1);
+    margin-right: 36.5px; 
+}
+
+.containerBlack{
+    background-color: #252837FF;
+}
+.containerBlack .intro{
+    background-color: #1F1D2BFF;
+}
+.containerBlack .employee {
+color: #fff;
+}
+.containerBlack .new{
+    background-color: blue;
+}
+.containerBlack .shift{
+    color: #fff;
+}
+.containerBlack .name{
+    color: #fff;
+}
+.containerBlack .admin{
+    color: #fff;
+}
